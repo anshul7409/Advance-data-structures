@@ -26,3 +26,7 @@ public:
        return ans;
     }
 };
+
+//for iterative solution, refer to morris_inorder_traversal.cpp
+//for preorder traversal, change the order of push_backs by pushing root first and then left and right
+//for postorder traversal, change the order of push_backs by pushing root last and then left and right
